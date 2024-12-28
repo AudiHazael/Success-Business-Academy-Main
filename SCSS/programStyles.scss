@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+// Variables
+$textLight: #f1f1f1f1;
+$textDark: #010101;
+$textSmall: 13px;
+$textLarge: 16px;
+
+@mixin heroHeader {
+ font-family: Open Sans;
+ font-weight: 700;
+ font-size: 60px;
+ color: #ffffff;
+}
+
+@mixin heroParagraph {
+ font-family: Open Sans;
+ font-weight: 400;
+ font-size: 24px;
+ color: #ffffff;
+}
+
+@mixin sectionHeader() {
+ font-family: Open Sans;
+ font-weight: 700;
+ font-size: 24px;
+}
+
+@mixin nameTag {
+ font-family: Open Sans;
+ font-weight: 700;
+ font-size: 18px;
+}
+
+@mixin paragraph() {
+ font-family: Inria Sans;
+ font-weight: 400;
+}
+
+@mixin primaryButton {
+ display: flex;
+ padding: 0.5rem 2rem;
+ justify-content: center;
+ align-items: center;
+
+ font-family: Open Sans;
+ font-weight: 700;
+ font-size: 16px;
+ color: #ffffff;
+
+ background: #e32652;
+ border: none;
+}
+
+@mixin aTags {
+ color: rgb(129, 192, 245);
+ font-size: $textLarge;
+ text-decoration: none;
+}
+
+body {
+ margin: 0px;
+ padding: 0px;
+}
+
+header.programs{
+ nav {
+  background-color: #01010171;
+  
+  .nav-link {
+   color: #e32652;
+   text-align: center;
+   font-family: Open Sans;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   text-decoration: none;
+  
+   .btn {
+    @include primaryButton();
+   }
+  }
+ }
+
+ background: url('../Assets/programHeader.png') lightgray 50% / cover no-repeat;
+ flex-shrink: 0;
+ height: fit-content;
+ .heroProgram{
+  .col-8 {
+   width: 68vw;
+   height: 35rem;
+   border: 1px solid #808080;
+
+   h1 {
+     @include heroHeader();
+   }
+     
+    h2 {
+     @include heroParagraph();
+    }
+     
+    .btn {
+     @include primaryButton();
+    }
+  }
+ }
+}
+
+section.aboutCourse{
+ p{
+  @include paragraph();
+  font-size: $textLarge;
+  color: $textDark;
+ }
+
+  h3{
+   @include sectionHeader();
+   font-size: 20px;
+  }
+
+  ul{
+   li{
+    @include paragraph();
+    font-size: $textLarge;
+    color: $textDark;
+   }
+  }
+
+  .btn{
+   @include primaryButton();
+  }
+}
+
+
+footer {
+ background: #000;
+
+ .row {
+  .col-md-4 {
+   h3 {
+    @include sectionHeader();
+    color: $textLight;
+    font-size: 20px;
+   }
+
+   p {
+    @include paragraph();
+    color: $textLight;
+    font-size: $textLarge;
+   }
+
+   a {
+    @include aTags();
+   }
+  }
+ }
+
+ .copyright {
+  p {
+   @include paragraph();
+   color: $textLight;
+   font-size: $textLarge;
+  }
+
+  a {
+   @include aTags();
+  }
+ }
+}
+
+
+// Media Optimization
+
+@media only screen and (max-width: 1024px){
+  
+}
+
+@media only screen and (max-width: 767px){
+  header.programs {
+    background: url('../Assets/programHeader.png') lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+    height: fit-content;
+  
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .heroProgram {
+      .col-8 {
+        width: 100vw;
+        border: none;
+        padding: 0 0.15rem;
+  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  
+        text-align: center;
+  
+        h1 {
+          font-size: 28px;
+        }
+  
+        h2 {
+          font-size: 20px;
+          margin-top: 1rem;
+        }
+  
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+
+  footer {
+    background: #000;
+    
+    .row {
+       text-align: center;
+    }
+    
+    .copyright {
+      p {
+        font-size: $textSmall;
+      }
+    }
+  }
+}

@@ -1,0 +1,666 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import './programStyles.scss';
+
+// Variables
+$textLight: #f1f1f1f1;
+$textDark: #010101;
+$textSmall: 13px;
+$textLarge: 16px;
+
+// Functions
+
+@mixin heroHeader {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+}
+@mixin heroParagraph {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+}
+@mixin sectionHeader() {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+}
+@mixin nameTag {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 18px;
+}
+@mixin paragraph() {
+  font-family: Inria Sans;
+  font-weight: 400;
+}
+@mixin primaryButton {
+  display: flex;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+
+  background: #e32652;
+  border: none;
+}
+@mixin secondaryButton {
+  display: flex;
+  width: 200px;
+  padding: 9px 41px 10px 42px;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+
+  background: none;
+  border: 1px solid #e39aab;
+}
+@mixin images {
+  width: auto;
+  height: 200px;
+}
+
+@mixin aTags {
+  color: rgb(129, 192, 245);
+  font-size: $textLarge;
+  text-decoration: none;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background: url('../Assets/headerBackgroundImage.png') lightgray 50% / cover
+    no-repeat;
+  flex-shrink: 0;
+  height: fit-content;
+
+  nav {
+    background-color: #01010171;
+
+    .nav-link {
+      color: #e32652;
+      text-align: center;
+      font-family: Open Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+
+      .btn {
+        @include primaryButton();
+      }
+    }
+  }
+
+  .hero {
+    .col-8 {
+      width: 68vw;
+      height: 35rem;
+      border: 1px solid #808080;
+
+      h1 {
+        @include heroHeader();
+      }
+
+      h2 {
+        @include heroParagraph();
+      }
+
+      .btn {
+        @include primaryButton();
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+section.one {
+  background: #fffdfa;
+
+  // img {
+  //   @include images();
+  // }
+
+  h2 {
+    @include sectionHeader();
+    color: $textDark;
+  }
+
+  p {
+    @include paragraph();
+    color: $textDark;
+    font-size: $textLarge;
+  }
+
+  h4 {
+    @include nameTag();
+    color: $textDark;
+  }
+}
+
+section.two {
+  background: url('../Assets/wance-paleri--U35nb07DCM-unsplash.jpg') lightgray 50% /
+    cover no-repeat;
+  flex-shrink: 0;
+  height: 379px;
+
+  .row {
+    background: #000000a9;
+    height: 287px;
+    width: 60vw;
+
+    h2 {
+      @include sectionHeader();
+      color: $textLight;
+    }
+
+    p {
+      @include paragraph();
+      color: $textLight;
+      font-size: $textLarge;
+    }
+
+    h4 {
+      @include nameTag();
+      color: $textLight;
+    }
+  }
+}
+
+section.three {
+  background: #fffdfa;
+  margin: 0;
+  h2 {
+    @include sectionHeader();
+    color: $textDark;
+  }
+
+  p {
+    @include paragraph();
+    color: $textDark;
+    font-size: $textLarge;
+  }
+
+  .socialProof{
+    border: 1px solid #e39aab34;
+    padding: 4rem 2rem;
+    text-align: left;
+
+    h3{
+      color: #00000033;
+    }
+    p{
+     color: #00000033; 
+    }
+  }
+}
+
+section.four {
+  background: #fffdfa;
+  .container {
+    .row {
+      .col-md-2 {
+        img {
+          width: auto;
+          height: 280px;
+        }
+      }
+
+      .col-md-6 {
+        background: #222326;
+        padding: 3rem;
+
+        h2 {
+          @include sectionHeader();
+          color: $textLight;
+        }
+
+        p {
+          @include paragraph();
+          font-size: $textLarge;
+          color: $textLight;
+        }
+
+        .btn {
+          @include primaryButton();
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+section.five {
+  background: url('../Assets/sectionFiveBackgroundImage.png') lightgray 50% /
+    cover no-repeat;
+  height: 335px;
+  .container {
+    .row {
+      .col-md-6 {
+        h2 {
+          @include sectionHeader();
+          color: $textLight;
+        }
+
+        p {
+          @include paragraph();
+          color: $textLight;
+          font-size: $textLarge;
+        }
+
+        .btn {
+          @include secondaryButton();
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+section.six{
+  .container{
+    .row{
+      .col-md-4{
+        border: 1px solid #e39aab34;
+        height: 150px;
+        margin: 10px;
+        .col-2{
+          img{
+            width: 60px;
+            height: auto;
+          }
+        }
+        .col-10{
+          h5{
+            @include sectionHeader();
+            font-size: $textLarge
+          }
+        }
+
+        p{
+          @include paragraph();
+          font-size: $textSmall;
+          color: #010101;
+          font-weight: 300;
+        }
+      }
+
+      .btn {
+        @include primaryButton();
+        text-decoration: none;
+        margin-left: 16.5rem;
+      }
+    }
+  }
+}
+
+.contact {
+  background: url('../Assets/contactSectionBackgroundImage.png') lightgray 50% /
+    cover no-repeat;
+  flex-shrink: 0;
+  height: auto;
+
+  .contactText {
+    h4 {
+      @include nameTag();
+      color: $textLight;
+      font-size: 24px;
+    }
+
+    p {
+      @include paragraph();
+      color: $textLight;
+      font-size: $textLarge;
+    }
+  }
+
+  .formContainer {
+    background: #0000006e;
+    padding: 2rem 5rem;
+  }
+
+  .contactContainer {
+    .info {
+      border: 1px solid #e39aaba8;
+    }
+
+    h3 {
+      @include sectionHeader();
+      color: $textLight;
+      font-size: 20px;
+    }
+
+    p {
+      @include paragraph();
+      color: $textLight;
+      font-size: $textLarge;
+    }
+  }
+}
+
+footer {
+  background: #000;
+  .row {
+    .col-md-4 {
+      h3 {
+        @include sectionHeader();
+        color: $textLight;
+        font-size: 20px;
+      }
+      p {
+        @include paragraph();
+        color: $textLight;
+        font-size: $textLarge;
+      }
+
+      a {
+        @include aTags();
+      }
+    }
+  }
+
+  .copyright {
+    p {
+      @include paragraph();
+      color: $textLight;
+      font-size: $textLarge;
+    }
+
+    a {
+      @include aTags();
+    }
+  }
+}
+
+// Media Optimization
+
+@media only screen and (max-width: 1024px) {
+
+ header {
+  
+    .hero {
+      .col-8 {
+        width: 85vw;
+       
+
+         h1 {
+          br{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  section.one {
+    img{
+      width: 200px;
+      height: auto;
+    }
+    h2 {
+      font-size: $textLarge;
+    }
+
+    p {
+      font-size: $textSmall;
+    }
+
+    h4 {
+      font-size: $textLarge;
+    }
+
+    .col-md-6 {
+      margin-left: 1.5rem;
+    }
+  }
+
+  section.two {
+    height: 379px;
+
+    .row {
+      background: #000000a9;
+      height: 287px;
+      width: 80vw;
+    }
+  }
+
+    
+
+  section.four {
+    .container {
+      .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .col-12 {
+          img {
+            display: none;
+          }
+
+          h2 {
+            font-size: 20px;
+          }
+
+          p {
+            font-size: $textLarge;
+          }
+        }
+
+        .col-md-6 {
+          width: 75vw;
+          padding: 4rem 6rem;
+        }
+      }
+    }
+  }
+
+  section.six{
+    .container{
+      .row{
+        .col-md-4{
+          .col-2{
+            img{
+              width: 45px;
+              height: auto;
+            }
+          }
+          
+          p{
+            font-size: $textSmall;
+          }
+        }
+
+        .btn {
+          margin-left: 12rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    background: url('../Assets/headerBackgroundImage.png') lightgray 50% / cover
+      no-repeat;
+    height: 100vh;
+
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero {
+      .col-8 {
+        width: 100vw;
+        border: none;
+        padding: 0 0.15rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+
+        h1 {
+          font-size: 28px;
+        }
+
+        h2 {
+          font-size: 20px;
+          margin-top: 1rem;
+        }
+
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+
+  section.one {
+    .row {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 400px;
+        height: auto;
+        margin: 2rem 0;
+      }
+
+      .col-md-8{
+        padding: 0 3.5rem;
+
+      h2 {
+        font-size: $textLarge;
+      }
+
+      p {
+        font-size: $textSmall;
+      }
+
+      h4 {
+        font-size: $textLarge;
+      }
+      }
+    }
+  }
+
+  section.two {
+    .row {
+      height: 287px;
+      width: 90vw;
+
+      h2 {
+        font-size: 22px;
+      }
+
+      p {
+        font-size: $textLarge;
+      }
+
+      h4 {
+        font-size: $textSmall;
+      }
+    }
+  }
+
+  section.three {
+    background: #fffdfa;
+    margin: 0;
+
+    h2 {
+      font-size: $textLarge;
+    }
+
+    p {
+      font-size: $textSmall;
+    }
+  }
+
+  section.four {
+    .container {
+      .row {
+        .col-12 {
+          img {
+            display: none;
+          }
+
+          h2 {
+            font-size: $textLarge;
+          }
+
+          p {
+            font-size: $textSmall;
+          }
+        }
+
+        .col-md-6 {
+          width: 95vw;
+          padding: 2em 3rem;
+        }
+      }
+    }
+  }
+
+  section.five {
+    padding: 0 auto;
+    margin: 0 auto;
+  }
+
+  section.six{
+    .container{
+      .row{
+        .col-md-4{
+          width: 85vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .col-2{
+            img{
+              width: 50px;
+              height: auto;
+            }
+          }
+        }
+
+        .btn{
+          margin-left: 2.25rem;
+        }
+      }
+    }
+  }
+
+  footer {
+    background: #000;
+
+    .row {
+      text-align: center;
+    }
+
+    .copyright {
+      p {
+        font-size: $textSmall;
+      }
+    }
+  }
+}

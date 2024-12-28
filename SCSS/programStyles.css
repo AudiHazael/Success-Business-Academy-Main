@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header.programs {
+  background: url("../Assets/programHeader.png") lightgray 50%/cover no-repeat;
+  flex-shrink: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+header.programs nav {
+  background-color: rgba(1, 1, 1, 0.4431372549);
+}
+header.programs nav .nav-link {
+  color: #e32652;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+header.programs nav .nav-link .btn {
+  display: flex;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e32652;
+  border: none;
+}
+header.programs .heroProgram .col-8 {
+  width: 68vw;
+  height: 35rem;
+  border: 1px solid #808080;
+}
+header.programs .heroProgram .col-8 h1 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+}
+header.programs .heroProgram .col-8 h2 {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+}
+header.programs .heroProgram .col-8 .btn {
+  display: flex;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e32652;
+  border: none;
+}
+
+section.aboutCourse p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  font-size: 16px;
+  color: #010101;
+}
+section.aboutCourse h3 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  font-size: 20px;
+}
+section.aboutCourse ul li {
+  font-family: Inria Sans;
+  font-weight: 400;
+  font-size: 16px;
+  color: #010101;
+}
+section.aboutCourse .btn {
+  display: flex;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e32652;
+  border: none;
+}
+
+footer {
+  background: #000;
+}
+footer .row .col-md-4 h3 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(241, 241, 241, 0.9450980392);
+  font-size: 20px;
+}
+footer .row .col-md-4 p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  color: rgba(241, 241, 241, 0.9450980392);
+  font-size: 16px;
+}
+footer .row .col-md-4 a {
+  color: rgb(129, 192, 245);
+  font-size: 16px;
+  text-decoration: none;
+}
+footer .copyright p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  color: rgba(241, 241, 241, 0.9450980392);
+  font-size: 16px;
+}
+footer .copyright a {
+  color: rgb(129, 192, 245);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+  header.programs {
+    background: url("../Assets/programHeader.png") lightgray 50%/cover no-repeat;
+    flex-shrink: 0;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  header.programs .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header.programs .heroProgram .col-8 {
+    width: 100vw;
+    border: none;
+    padding: 0 0.15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header.programs .heroProgram .col-8 h1 {
+    font-size: 28px;
+  }
+  header.programs .heroProgram .col-8 h2 {
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+  header.programs .heroProgram .col-8 br {
+    display: none;
+  }
+  footer {
+    background: #000;
+  }
+  footer .row {
+    text-align: center;
+  }
+  footer .copyright p {
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=programStyles.css.map */

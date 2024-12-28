@@ -1,0 +1,675 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header.programs {
+  background: url("../Assets/programHeader.png") lightgray 50%/cover no-repeat;
+  flex-shrink: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+header.programs nav {
+  background-color: rgba(1, 1, 1, 0.4431372549);
+}
+header.programs nav .nav-link {
+  color: #e32652;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+header.programs nav .nav-link .btn {
+  display: flex;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e32652;
+  border: none;
+}
+header.programs .heroProgram .col-8 {
+  width: 68vw;
+  height: 35rem;
+  border: 1px solid #808080;
+}
+header.programs .heroProgram .col-8 h1 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+}
+header.programs .heroProgram .col-8 h2 {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+}
+header.programs .heroProgram .col-8 .btn {
+  display: flex;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e32652;
+  border: none;
+}
+
+section.aboutCourse p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  font-size: 16px;
+  color: #010101;
+}
+section.aboutCourse h3 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  font-size: 20px;
+}
+section.aboutCourse ul li {
+  font-family: Inria Sans;
+  font-weight: 400;
+  font-size: 16px;
+  color: #010101;
+}
+section.aboutCourse .btn {
+  display: flex;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e32652;
+  border: none;
+}
+
+footer {
+  background: #000;
+}
+footer .row .col-md-4 h3 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(241, 241, 241, 0.9450980392);
+  font-size: 20px;
+}
+footer .row .col-md-4 p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  color: rgba(241, 241, 241, 0.9450980392);
+  font-size: 16px;
+}
+footer .row .col-md-4 a {
+  color: rgb(129, 192, 245);
+  font-size: 16px;
+  text-decoration: none;
+}
+footer .copyright p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  color: rgba(241, 241, 241, 0.9450980392);
+  font-size: 16px;
+}
+footer .copyright a {
+  color: rgb(129, 192, 245);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+  header.programs {
+    background: url("../Assets/programHeader.png") lightgray 50%/cover no-repeat;
+    flex-shrink: 0;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  header.programs .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header.programs .heroProgram .col-8 {
+    width: 100vw;
+    border: none;
+    padding: 0 0.15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header.programs .heroProgram .col-8 h1 {
+    font-size: 28px;
+  }
+  header.programs .heroProgram .col-8 h2 {
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+  header.programs .heroProgram .col-8 br {
+    display: none;
+  }
+  footer {
+    background: #000;
+  }
+  footer .row {
+    text-align: center;
+  }
+  footer .copyright p {
+    font-size: 13px;
+  }
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background: url("../Assets/headerBackgroundImage.png") lightgray 50%/cover no-repeat;
+  flex-shrink: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+header nav {
+  background-color: rgba(1, 1, 1, 0.4431372549);
+}
+header nav .nav-link {
+  color: #e32652;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+header nav .nav-link .btn {
+  display: flex;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e32652;
+  border: none;
+}
+header .hero .col-8 {
+  width: 68vw;
+  height: 35rem;
+  border: 1px solid #808080;
+}
+header .hero .col-8 h1 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+}
+header .hero .col-8 h2 {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+}
+header .hero .col-8 .btn {
+  display: flex;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e32652;
+  border: none;
+  text-decoration: none;
+}
+
+section.one {
+  background: #fffdfa;
+}
+section.one h2 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  color: #010101;
+}
+section.one p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  color: #010101;
+  font-size: 16px;
+}
+section.one h4 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 18px;
+  color: #010101;
+}
+
+section.two {
+  background: url("../Assets/wance-paleri--U35nb07DCM-unsplash.jpg") lightgray 50%/cover no-repeat;
+  flex-shrink: 0;
+  height: 379px;
+}
+section.two .row {
+  background: rgba(0, 0, 0, 0.662745098);
+  height: 287px;
+  width: 60vw;
+}
+section.two .row h2 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(241, 241, 241, 0.9450980392);
+}
+section.two .row p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  color: rgba(241, 241, 241, 0.9450980392);
+  font-size: 16px;
+}
+section.two .row h4 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(241, 241, 241, 0.9450980392);
+}
+
+section.three {
+  background: #fffdfa;
+  margin: 0;
+}
+section.three h2 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  color: #010101;
+}
+section.three p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  color: #010101;
+  font-size: 16px;
+}
+section.three .socialProof {
+  border: 1px solid rgba(227, 154, 171, 0.2039215686);
+  padding: 4rem 2rem;
+  text-align: left;
+}
+section.three .socialProof h3 {
+  color: rgba(0, 0, 0, 0.2);
+}
+section.three .socialProof p {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+section.four {
+  background: #fffdfa;
+}
+section.four .container .row .col-md-2 img {
+  width: auto;
+  height: 280px;
+}
+section.four .container .row .col-md-6 {
+  background: #222326;
+  padding: 3rem;
+}
+section.four .container .row .col-md-6 h2 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(241, 241, 241, 0.9450980392);
+}
+section.four .container .row .col-md-6 p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(241, 241, 241, 0.9450980392);
+}
+section.four .container .row .col-md-6 .btn {
+  display: flex;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e32652;
+  border: none;
+  text-decoration: none;
+}
+
+section.five {
+  background: url("../Assets/sectionFiveBackgroundImage.png") lightgray 50%/cover no-repeat;
+  height: 335px;
+}
+section.five .container .row .col-md-6 h2 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(241, 241, 241, 0.9450980392);
+}
+section.five .container .row .col-md-6 p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  color: rgba(241, 241, 241, 0.9450980392);
+  font-size: 16px;
+}
+section.five .container .row .col-md-6 .btn {
+  display: flex;
+  width: 200px;
+  padding: 9px 41px 10px 42px;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: none;
+  border: 1px solid #e39aab;
+  text-decoration: none;
+}
+
+section.six .container .row .col-md-4 {
+  border: 1px solid rgba(227, 154, 171, 0.2039215686);
+  height: 150px;
+  margin: 10px;
+}
+section.six .container .row .col-md-4 .col-2 img {
+  width: 60px;
+  height: auto;
+}
+section.six .container .row .col-md-4 .col-10 h5 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  font-size: 16px;
+}
+section.six .container .row .col-md-4 p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  font-size: 13px;
+  color: #010101;
+  font-weight: 300;
+}
+section.six .container .row .btn {
+  display: flex;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e32652;
+  border: none;
+  text-decoration: none;
+  margin-left: 16.5rem;
+}
+
+.contact {
+  background: url("../Assets/contactSectionBackgroundImage.png") lightgray 50%/cover no-repeat;
+  flex-shrink: 0;
+  height: auto;
+}
+.contact .contactText h4 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(241, 241, 241, 0.9450980392);
+  font-size: 24px;
+}
+.contact .contactText p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  color: rgba(241, 241, 241, 0.9450980392);
+  font-size: 16px;
+}
+.contact .formContainer {
+  background: rgba(0, 0, 0, 0.431372549);
+  padding: 2rem 5rem;
+}
+.contact .contactContainer .info {
+  border: 1px solid rgba(227, 154, 171, 0.6588235294);
+}
+.contact .contactContainer h3 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(241, 241, 241, 0.9450980392);
+  font-size: 20px;
+}
+.contact .contactContainer p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  color: rgba(241, 241, 241, 0.9450980392);
+  font-size: 16px;
+}
+
+footer {
+  background: #000;
+}
+footer .row .col-md-4 h3 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(241, 241, 241, 0.9450980392);
+  font-size: 20px;
+}
+footer .row .col-md-4 p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  color: rgba(241, 241, 241, 0.9450980392);
+  font-size: 16px;
+}
+footer .row .col-md-4 a {
+  color: rgb(129, 192, 245);
+  font-size: 16px;
+  text-decoration: none;
+}
+footer .copyright p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  color: rgba(241, 241, 241, 0.9450980392);
+  font-size: 16px;
+}
+footer .copyright a {
+  color: rgb(129, 192, 245);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  header .hero .col-8 {
+    width: 85vw;
+  }
+  header .hero .col-8 h1 br {
+    display: none;
+  }
+  section.one img {
+    width: 200px;
+    height: auto;
+  }
+  section.one h2 {
+    font-size: 16px;
+  }
+  section.one p {
+    font-size: 13px;
+  }
+  section.one h4 {
+    font-size: 16px;
+  }
+  section.one .col-md-6 {
+    margin-left: 1.5rem;
+  }
+  section.two {
+    height: 379px;
+  }
+  section.two .row {
+    background: rgba(0, 0, 0, 0.662745098);
+    height: 287px;
+    width: 80vw;
+  }
+  section.four .container .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  section.four .container .row .col-12 img {
+    display: none;
+  }
+  section.four .container .row .col-12 h2 {
+    font-size: 20px;
+  }
+  section.four .container .row .col-12 p {
+    font-size: 16px;
+  }
+  section.four .container .row .col-md-6 {
+    width: 75vw;
+    padding: 4rem 6rem;
+  }
+  section.six .container .row .col-md-4 .col-2 img {
+    width: 45px;
+    height: auto;
+  }
+  section.six .container .row .col-md-4 p {
+    font-size: 13px;
+  }
+  section.six .container .row .btn {
+    margin-left: 12rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  header {
+    background: url("../Assets/headerBackgroundImage.png") lightgray 50%/cover no-repeat;
+    height: 100vh;
+  }
+  header .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header .hero .col-8 {
+    width: 100vw;
+    border: none;
+    padding: 0 0.15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header .hero .col-8 h1 {
+    font-size: 28px;
+  }
+  header .hero .col-8 h2 {
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+  header .hero .col-8 br {
+    display: none;
+  }
+  section.one .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.one .row img {
+    width: 400px;
+    height: auto;
+    margin: 2rem 0;
+  }
+  section.one .row .col-md-8 {
+    padding: 0 3.5rem;
+  }
+  section.one .row .col-md-8 h2 {
+    font-size: 16px;
+  }
+  section.one .row .col-md-8 p {
+    font-size: 13px;
+  }
+  section.one .row .col-md-8 h4 {
+    font-size: 16px;
+  }
+  section.two .row {
+    height: 287px;
+    width: 90vw;
+  }
+  section.two .row h2 {
+    font-size: 22px;
+  }
+  section.two .row p {
+    font-size: 16px;
+  }
+  section.two .row h4 {
+    font-size: 13px;
+  }
+  section.three {
+    background: #fffdfa;
+    margin: 0;
+  }
+  section.three h2 {
+    font-size: 16px;
+  }
+  section.three p {
+    font-size: 13px;
+  }
+  section.four .container .row .col-12 img {
+    display: none;
+  }
+  section.four .container .row .col-12 h2 {
+    font-size: 16px;
+  }
+  section.four .container .row .col-12 p {
+    font-size: 13px;
+  }
+  section.four .container .row .col-md-6 {
+    width: 95vw;
+    padding: 2em 3rem;
+  }
+  section.five {
+    padding: 0 auto;
+    margin: 0 auto;
+  }
+  section.six .container .row .col-md-4 {
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.six .container .row .col-md-4 .col-2 img {
+    width: 50px;
+    height: auto;
+  }
+  section.six .container .row .btn {
+    margin-left: 2.25rem;
+  }
+  footer {
+    background: #000;
+  }
+  footer .row {
+    text-align: center;
+  }
+  footer .copyright p {
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=styles.css.map */
