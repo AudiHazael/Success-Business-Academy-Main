@@ -63,7 +63,23 @@ body {
  padding: 0px;
 }
 
-header.programs{
+header{
+  .bMngt{
+    background: url('/Assets/bMngt.png') lightgray 50% / cover no-repeat;
+  }
+  .faa{
+    background: url('../Assets/generalHero.png') lightgray 50% / cover no-repeat;
+  }
+  .msdb{
+    background: url('../Assets/generalHero.png') lightgray 50% / cover no-repeat;
+  }
+  .inn-tech{
+    background: url('../Assets/generalHero.png') lightgray 50% / cover no-repeat;
+  }
+  .ibs{
+    background: url('../Assets/generalHero.png') lightgray 50% / cover no-repeat;
+  }
+
  nav {
   background-color: #01010171;
   
@@ -83,7 +99,7 @@ header.programs{
   }
  }
 
- background: url('../Assets/programHeader.png') lightgray 50% / cover no-repeat;
+ 
  flex-shrink: 0;
  height: fit-content;
  .heroProgram{

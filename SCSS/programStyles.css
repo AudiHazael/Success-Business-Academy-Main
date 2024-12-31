@@ -4,16 +4,30 @@ body {
   padding: 0px;
 }
 
-header.programs {
-  background: url("../Assets/programHeader.png") lightgray 50%/cover no-repeat;
+header {
   flex-shrink: 0;
   height: -moz-fit-content;
   height: fit-content;
 }
-header.programs nav {
+header .bMngt {
+  background: url("/Assets/bMngt.png") lightgray 50%/cover no-repeat;
+}
+header .faa {
+  background: url("../Assets/generalHero.png") lightgray 50%/cover no-repeat;
+}
+header .msdb {
+  background: url("../Assets/generalHero.png") lightgray 50%/cover no-repeat;
+}
+header .inn-tech {
+  background: url("../Assets/generalHero.png") lightgray 50%/cover no-repeat;
+}
+header .ibs {
+  background: url("../Assets/generalHero.png") lightgray 50%/cover no-repeat;
+}
+header nav {
   background-color: rgba(1, 1, 1, 0.4431372549);
 }
-header.programs nav .nav-link {
+header nav .nav-link {
   color: #e32652;
   text-align: center;
   font-family: Open Sans;
@@ -23,7 +37,7 @@ header.programs nav .nav-link {
   line-height: normal;
   text-decoration: none;
 }
-header.programs nav .nav-link .btn {
+header nav .nav-link .btn {
   display: flex;
   padding: 0.5rem 2rem;
   justify-content: center;
@@ -35,24 +49,24 @@ header.programs nav .nav-link .btn {
   background: #e32652;
   border: none;
 }
-header.programs .heroProgram .col-8 {
+header .heroProgram .col-8 {
   width: 68vw;
   height: 35rem;
   border: 1px solid #808080;
 }
-header.programs .heroProgram .col-8 h1 {
+header .heroProgram .col-8 h1 {
   font-family: Open Sans;
   font-weight: 700;
   font-size: 60px;
   color: #ffffff;
 }
-header.programs .heroProgram .col-8 h2 {
+header .heroProgram .col-8 h2 {
   font-family: Open Sans;
   font-weight: 400;
   font-size: 24px;
   color: #ffffff;
 }
-header.programs .heroProgram .col-8 .btn {
+header .heroProgram .col-8 .btn {
   display: flex;
   padding: 0.5rem 2rem;
   justify-content: center;

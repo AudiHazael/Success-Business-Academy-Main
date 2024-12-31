@@ -13,13 +13,13 @@ $textLarge: 16px;
 @mixin heroHeader {
   font-family: Open Sans;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 36px;
   color: #ffffff;
 }
 @mixin heroParagraph {
   font-family: Open Sans;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   color: #ffffff;
 }
 @mixin sectionHeader() {
@@ -82,7 +82,7 @@ body {
 }
 
 header {
-  background: url('./Assets/headerBackgroundImage.png') lightgray 50% / cover
+  background: url('../Assets/header.png') lightgray 50% / cover
     no-repeat;
   flex-shrink: 0;
   height: fit-content;
@@ -108,7 +108,7 @@ header {
 
   .hero {
     .col-8 {
-      width: 68vw;
+      width: 60vw;
       height: 35rem;
       border: 1px solid #808080;
 
@@ -120,9 +120,13 @@ header {
         @include heroParagraph();
       }
 
-      .btn {
+      .btn-primary {
         @include primaryButton();
-        text-decoration: none;
+        width: 200px;
+        a {
+          text-decoration: none;
+          color: #ffffff;
+        }
       }
     }
   }
@@ -149,11 +153,15 @@ section.one {
   h4 {
     @include nameTag();
     color: $textDark;
+
+    a {
+      text-decoration: none;
+    }
   }
 }
 
 section.two {
-  background: url('./Assets/wance-paleri--U35nb07DCM-unsplash.jpg') lightgray 50% /
+  background: url('../Assets/wance-paleri--U35nb07DCM-unsplash.jpg') lightgray 50% /
     cover no-repeat;
   flex-shrink: 0;
   height: 379px;
@@ -235,9 +243,14 @@ section.four {
           color: $textLight;
         }
 
-        .btn {
+        .btn-primary {
           @include primaryButton();
-          text-decoration: none;
+          width: 200px;
+        
+          a {
+            text-decoration: none;
+            color: #ffffff;
+          }
         }
       }
     }
@@ -245,7 +258,7 @@ section.four {
 }
 
 section.five {
-  background: url('./Assets/sectionFiveBackgroundImage.png') lightgray 50% /
+  background: url('../Assets/sectionFiveBackgroundImage.png') lightgray 50% /
     cover no-repeat;
   height: 335px;
   .container {
@@ -262,9 +275,14 @@ section.five {
           font-size: $textLarge;
         }
 
-        .btn {
+        .btn-secondary {
           @include secondaryButton();
-          text-decoration: none;
+          width: 200px;
+        
+          a {
+            text-decoration: none;
+            color: #ffffff;
+          }
         }
       }
     }
@@ -273,6 +291,9 @@ section.five {
 
 section.six{
   .container{
+    .title {
+      width: 55%;
+    }
     .row{
       .col-md-4{
         border: 1px solid #e39aab34;
@@ -299,17 +320,21 @@ section.six{
         }
       }
 
-      .btn {
+      .btn-primary {
         @include primaryButton();
-        text-decoration: none;
-        margin-left: 16.5rem;
+        width: 200px;
+      
+        a {
+          text-decoration: none;
+          color: #ffffff;
+        }
       }
     }
   }
 }
 
 .contact {
-  background: url('./Assets/contactSectionBackgroundImage.png') lightgray 50% /
+  background: url('../Assets/contactSectionBackgroundImage.png') lightgray 50% /
     cover no-repeat;
   flex-shrink: 0;
   height: auto;
@@ -494,7 +519,7 @@ footer {
 
 @media only screen and (max-width: 767px) {
   header {
-    background: url('./Assets/headerBackgroundImage.png') lightgray 50% / cover
+    background: url('../Assets/headerBackgroundImage.png') lightgray 50% / cover
       no-repeat;
     height: 100vh;
 
@@ -663,4 +688,8 @@ footer {
       }
     }
   }
+}
+
+@media only screen and (max-width: 767px) {
+
 }
