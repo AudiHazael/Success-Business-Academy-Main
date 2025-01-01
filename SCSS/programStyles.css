@@ -9,21 +9,6 @@ header {
   height: -moz-fit-content;
   height: fit-content;
 }
-header .bMngt {
-  background: url("/Assets/bMngt.png") lightgray 50%/cover no-repeat;
-}
-header .faa {
-  background: url("../Assets/generalHero.png") lightgray 50%/cover no-repeat;
-}
-header .msdb {
-  background: url("../Assets/generalHero.png") lightgray 50%/cover no-repeat;
-}
-header .inn-tech {
-  background: url("../Assets/generalHero.png") lightgray 50%/cover no-repeat;
-}
-header .ibs {
-  background: url("../Assets/generalHero.png") lightgray 50%/cover no-repeat;
-}
 header nav {
   background-color: rgba(1, 1, 1, 0.4431372549);
 }

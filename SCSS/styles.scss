@@ -30,7 +30,7 @@ $textLarge: 16px;
 @mixin nameTag {
   font-family: Open Sans;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 10px;
 }
 @mixin paragraph() {
   font-family: Inria Sans;
@@ -82,8 +82,7 @@ body {
 }
 
 header {
-  background: url('../Assets/header.png') lightgray 50% / cover
-    no-repeat;
+  background: url('../Assets/header.png') lightgray 50% / cover no-repeat;
   flex-shrink: 0;
   height: fit-content;
 
@@ -161,8 +160,7 @@ section.one {
 }
 
 section.two {
-  background: url('../Assets/wance-paleri--U35nb07DCM-unsplash.jpg') lightgray 50% /
-    cover no-repeat;
+  background: url('../Assets/wance-paleri--U35nb07DCM-unsplash.jpg') lightgray 50% / cover no-repeat;
   flex-shrink: 0;
   height: 379px;
 
@@ -203,16 +201,16 @@ section.three {
     font-size: $textLarge;
   }
 
-  .socialProof{
+  .socialProof {
     border: 1px solid #e39aab34;
     padding: 4rem 2rem;
     text-align: left;
 
-    h3{
+    h3 {
       color: #00000033;
     }
-    p{
-     color: #00000033; 
+    p {
+      color: #00000033;
     }
   }
 }
@@ -246,7 +244,7 @@ section.four {
         .btn-primary {
           @include primaryButton();
           width: 200px;
-        
+
           a {
             text-decoration: none;
             color: #ffffff;
@@ -258,8 +256,7 @@ section.four {
 }
 
 section.five {
-  background: url('../Assets/sectionFiveBackgroundImage.png') lightgray 50% /
-    cover no-repeat;
+  background: url('../Assets/sectionFiveBackgroundImage.png') lightgray 50% / cover no-repeat;
   height: 335px;
   .container {
     .row {
@@ -278,7 +275,7 @@ section.five {
         .btn-secondary {
           @include secondaryButton();
           width: 200px;
-        
+
           a {
             text-decoration: none;
             color: #ffffff;
@@ -289,30 +286,34 @@ section.five {
   }
 }
 
-section.six{
-  .container{
+section.six {
+  .container {
     .title {
       width: 55%;
     }
-    .row{
-      .col-md-4{
+    .row {
+      .col-md-4 {
         border: 1px solid #e39aab34;
         height: 150px;
         margin: 10px;
-        .col-2{
-          img{
-            width: 60px;
-            height: auto;
+        a {
+          text-decoration: none;
+          .col-2 {
+            img {
+              width: 60px;
+              height: auto;
+            }
           }
-        }
-        .col-10{
-          h5{
-            @include sectionHeader();
-            font-size: $textLarge
+          .col-10 {
+            h5 {
+              @include sectionHeader();
+              font-size: $textLarge;
+              color: #5c6580;
+            }
           }
         }
 
-        p{
+        p {
           @include paragraph();
           font-size: $textSmall;
           color: #010101;
@@ -323,7 +324,7 @@ section.six{
       .btn-primary {
         @include primaryButton();
         width: 200px;
-      
+
         a {
           text-decoration: none;
           color: #ffffff;
@@ -334,8 +335,7 @@ section.six{
 }
 
 .contact {
-  background: url('../Assets/contactSectionBackgroundImage.png') lightgray 50% /
-    cover no-repeat;
+  background: url('../Assets/contactSectionBackgroundImage.png') lightgray 50% / cover no-repeat;
   flex-shrink: 0;
   height: auto;
 
@@ -414,16 +414,13 @@ footer {
 // Media Optimization
 
 @media only screen and (max-width: 1024px) {
-
- header {
-  
+  header {
     .hero {
       .col-8 {
         width: 85vw;
-       
 
-         h1 {
-          br{
+        h1 {
+          br {
             display: none;
           }
         }
@@ -432,7 +429,7 @@ footer {
   }
 
   section.one {
-    img{
+    img {
       width: 200px;
       height: auto;
     }
@@ -463,8 +460,6 @@ footer {
     }
   }
 
-    
-
   section.four {
     .container {
       .row {
@@ -493,18 +488,18 @@ footer {
     }
   }
 
-  section.six{
-    .container{
-      .row{
-        .col-md-4{
-          .col-2{
-            img{
+  section.six {
+    .container {
+      .row {
+        .col-md-4 {
+          .col-2 {
+            img {
               width: 45px;
               height: auto;
             }
           }
-          
-          p{
+
+          p {
             font-size: $textSmall;
           }
         }
@@ -519,9 +514,8 @@ footer {
 
 @media only screen and (max-width: 767px) {
   header {
-    background: url('../Assets/headerBackgroundImage.png') lightgray 50% / cover
-      no-repeat;
-    height: 100vh;
+    background: url('../Assets/header.png') lightgray 50% / cover no-repeat;
+    height: 50%;
 
     .navbar-nav {
       display: flex;
@@ -533,8 +527,9 @@ footer {
     .hero {
       .col-8 {
         width: 100vw;
+        height: auto;
         border: none;
-        padding: 0 0.15rem;
+        padding: 0 0.15rem 2rem 0;
 
         display: flex;
         flex-direction: column;
@@ -544,11 +539,11 @@ footer {
         text-align: center;
 
         h1 {
-          font-size: 28px;
+          font-size: 24px;
         }
 
         h2 {
-          font-size: 20px;
+          font-size: 15px;
           margin-top: 1rem;
         }
 
@@ -572,20 +567,20 @@ footer {
         margin: 2rem 0;
       }
 
-      .col-md-8{
-        padding: 0 3.5rem;
+      .col-md-8 {
+        padding: 0 2rem;
 
-      h2 {
-        font-size: $textLarge;
-      }
+        h2 {
+          font-size: $textLarge;
+        }
 
-      p {
-        font-size: $textSmall;
-      }
+        p {
+          font-size: $textSmall;
+        }
 
-      h4 {
-        font-size: $textLarge;
-      }
+        h4 {
+          font-size: $textSmall;
+        }
       }
     }
   }
@@ -596,11 +591,12 @@ footer {
       width: 90vw;
 
       h2 {
-        font-size: 22px;
+        font-size: 20px;
       }
 
       p {
         font-size: $textLarge;
+        font-weight: 400;
       }
 
       h4 {
@@ -652,23 +648,33 @@ footer {
     margin: 0 auto;
   }
 
-  section.six{
-    .container{
-      .row{
-        .col-md-4{
+  section.six {
+    .container {
+      .title {
+        width: 100%;
+      }
+      .row {
+        .col-md-4 {
           width: 85vw;
           display: flex;
           justify-content: center;
           align-items: center;
-          .col-2{
-            img{
+
+          .col-10 {
+            h5 {
+              @include sectionHeader();
+              font-size: 12px;
+            }
+          }
+          .col-2 {
+            img {
               width: 50px;
               height: auto;
             }
           }
         }
 
-        .btn{
+        .btn {
           margin-left: 2.25rem;
         }
       }
@@ -680,16 +686,21 @@ footer {
 
     .row {
       text-align: center;
+      h3 {
+        font-size: 12px;
+      }
+      p {
+        font-size: 10px;
+      }
     }
 
     .copyright {
       p {
-        font-size: $textSmall;
+        font-size: 12px;
+      }
+      a {
+        font-size: 12px;
       }
     }
   }
-}
-
-@media only screen and (max-width: 767px) {
-
 }

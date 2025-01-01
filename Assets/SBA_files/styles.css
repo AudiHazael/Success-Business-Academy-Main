@@ -409,19 +409,15 @@ section.six .container .row .col-md-4 {
   height: 150px;
   margin: 10px;
 }
-section.six .container .row .col-md-4 a {
-  text-decoration: none;
-}
-section.six .container .row .col-md-4 a .col-2 img {
+section.six .container .row .col-md-4 .col-2 img {
   width: 60px;
   height: auto;
 }
-section.six .container .row .col-md-4 a .col-10 h5 {
+section.six .container .row .col-md-4 .col-10 h5 {
   font-family: Open Sans;
   font-weight: 700;
   font-size: 24px;
   font-size: 16px;
-  color: #5c6580;
 }
 section.six .container .row .col-md-4 p {
   font-family: Inria Sans;
@@ -583,7 +579,7 @@ footer .copyright a {
 @media only screen and (max-width: 767px) {
   header {
     background: url("../Assets/header.png") lightgray 50%/cover no-repeat;
-    height: 50%;
+    height: auto;
   }
   header .navbar-nav {
     display: flex;
@@ -593,9 +589,8 @@ footer .copyright a {
   }
   header .hero .col-8 {
     width: 100vw;
-    height: auto;
     border: none;
-    padding: 0 0.15rem 2rem 0;
+    padding: 0 0.15rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -689,7 +684,7 @@ footer .copyright a {
     font-family: Open Sans;
     font-weight: 700;
     font-size: 24px;
-    font-size: 12px;
+    font-size: 15px;
   }
   section.six .container .row .col-md-4 .col-2 img {
     width: 50px;
@@ -705,15 +700,19 @@ footer .copyright a {
     text-align: center;
   }
   footer .row h3 {
-    font-size: 12px;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(241, 241, 241, 0.9450980392);
+    font-size: 14px;
   }
   footer .row p {
-    font-size: 10px;
+    font-size: 12px;
   }
   footer .copyright p {
-    font-size: 12px;
+    font-size: 11px;
   }
   footer .copyright a {
-    font-size: 12px;
+    font-size: 11px;
   }
 }/*# sourceMappingURL=styles.css.map */
