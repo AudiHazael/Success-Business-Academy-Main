@@ -170,4 +170,64 @@ footer .copyright a {
   footer .copyright p {
     font-size: 13px;
   }
+}
+@media only screen and (max-width: 767px) {
+  header {
+    background: url("../Assets/header.png") lightgray 50%/cover no-repeat;
+    height: 50%;
+  }
+  header .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header .hero .col-8 {
+    width: 100vw;
+    height: auto;
+    border: none;
+    padding: 0 0.15rem 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header .hero .col-8 h1 {
+    font-size: 24px;
+  }
+  header .hero .col-8 h2 {
+    font-size: 15px;
+    margin-top: 1rem;
+  }
+  header .hero .col-8 br {
+    display: none;
+  }
+  .aboutCourse p {
+    font-size: 12px;
+  }
+  .aboutCourse h3 {
+    font-size: 15px;
+  }
+  .aboutCourse ul li {
+    font-size: 12px;
+  }
+  footer {
+    background: #000;
+  }
+  footer .row {
+    text-align: center;
+  }
+  footer .row h3 {
+    font-size: 12px;
+  }
+  footer .row p {
+    font-size: 10px;
+  }
+  footer .copyright p {
+    font-size: 12px;
+  }
+  footer .copyright a {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=programStyles.css.map */
