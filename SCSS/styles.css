@@ -440,7 +440,6 @@ footer .copyright a {
 }
 @media only screen and (max-width: 767px) {
   header {
-    background: url("../Assets/header.png") lightgray 50%/cover no-repeat;
     height: 50%;
   }
   header .navbar-nav {
