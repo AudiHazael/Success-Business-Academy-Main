@@ -409,6 +409,35 @@ footer {
   }
 }
 
+// Schools SCSS
+
+// .siteNav{}
+
+.aboutCourse {
+  p {
+    @include paragraph();
+    font-size: $textLarge;
+    color: $textDark;
+  }
+
+  h3 {
+    @include sectionHeader();
+    font-size: 20px;
+  }
+
+  ul {
+    li {
+      @include paragraph();
+      font-size: $textLarge;
+      color: $textDark;
+    }
+  }
+
+  .btn {
+    @include primaryButton();
+  }
+}
+
 // Media Optimization
 
 @media only screen and (max-width: 1024px) {

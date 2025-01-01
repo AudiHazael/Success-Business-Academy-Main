@@ -347,6 +347,37 @@ footer .copyright a {
   text-decoration: none;
 }
 
+.aboutCourse p {
+  font-family: Inria Sans;
+  font-weight: 400;
+  font-size: 16px;
+  color: #010101;
+}
+.aboutCourse h3 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  font-size: 20px;
+}
+.aboutCourse ul li {
+  font-family: Inria Sans;
+  font-weight: 400;
+  font-size: 16px;
+  color: #010101;
+}
+.aboutCourse .btn {
+  display: flex;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e32652;
+  border: none;
+}
+
 @media only screen and (max-width: 1024px) {
   header .hero .col-8 {
     width: 85vw;
