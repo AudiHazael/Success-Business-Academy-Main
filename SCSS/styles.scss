@@ -3,8 +3,8 @@
 // Variables
 $textLight: #f1f1f1f1;
 $textDark: #010101;
-$textSmall: 13px;
-$textLarge: 16px;
+$textSmall: 12px;
+$textLarge: 14px;
 
 // Functions
 
@@ -341,13 +341,13 @@ section.six {
     h4 {
       @include nameTag();
       color: $textLight;
-      font-size: 24px;
+      font-size: 20px;
     }
 
     p {
       @include paragraph();
       color: $textLight;
-      font-size: $textLarge;
+      font-size: $textSmall;
     }
   }
 
@@ -364,13 +364,13 @@ section.six {
     h3 {
       @include sectionHeader();
       color: $textLight;
-      font-size: 20px;
+      font-size: 18px;
     }
 
     p {
       @include paragraph();
       color: $textLight;
-      font-size: $textLarge;
+      font-size: $textSmall;
     }
   }
 }
@@ -382,12 +382,12 @@ footer {
       h3 {
         @include sectionHeader();
         color: $textLight;
-        font-size: 20px;
+        font-size: 18px;
       }
       p {
         @include paragraph();
         color: $textLight;
-        font-size: $textLarge;
+        font-size: $textSmall;
       }
 
       a {
@@ -400,7 +400,7 @@ footer {
     p {
       @include paragraph();
       color: $textLight;
-      font-size: $textLarge;
+      font-size: $textSmall;
     }
 
     a {
@@ -416,19 +416,19 @@ footer {
 .aboutCourse {
   p {
     @include paragraph();
-    font-size: $textLarge;
+    font-size: $textSmall;
     color: $textDark;
   }
 
   h3 {
     @include sectionHeader();
-    font-size: 20px;
+    font-size: 18px;
   }
 
   ul {
     li {
       @include paragraph();
-      font-size: $textLarge;
+      font-size: $textSmall;
       color: $textDark;
     }
   }
@@ -682,15 +682,19 @@ footer {
       }
       .row {
         .col-md-4 {
-          width: 85vw;
+          width: 90vw;
           display: flex;
           justify-content: center;
           align-items: center;
-
+          height: auto;
           .col-10 {
-            h5 {
-              @include sectionHeader();
-              font-size: 12px;
+            a {
+              .row {
+                h5 {
+                  @include sectionHeader();
+                  font-size: 10px;
+                }
+              }
             }
           }
           .col-2 {
@@ -704,6 +708,28 @@ footer {
         .btn {
           margin-left: 2.25rem;
         }
+      }
+    }
+  }
+
+  // Shchools SCSS
+  .aboutCourse {
+    p {
+      @include paragraph();
+      font-size: $textSmall;
+      color: $textDark;
+    }
+
+    h3 {
+      @include sectionHeader();
+      font-size: 16px;
+    }
+
+    ul {
+      li {
+        @include paragraph();
+        font-size: $textSmall;
+        color: $textDark;
       }
     }
   }

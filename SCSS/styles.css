@@ -83,7 +83,7 @@ section.one p {
   font-family: Inria Sans;
   font-weight: 400;
   color: #010101;
-  font-size: 16px;
+  font-size: 14px;
 }
 section.one h4 {
   font-family: Open Sans;
@@ -115,7 +115,7 @@ section.two .row p {
   font-family: Inria Sans;
   font-weight: 400;
   color: rgba(241, 241, 241, 0.9450980392);
-  font-size: 16px;
+  font-size: 14px;
 }
 section.two .row h4 {
   font-family: Open Sans;
@@ -138,7 +138,7 @@ section.three p {
   font-family: Inria Sans;
   font-weight: 400;
   color: #010101;
-  font-size: 16px;
+  font-size: 14px;
 }
 section.three .socialProof {
   border: 1px solid rgba(227, 154, 171, 0.2039215686);
@@ -172,7 +172,7 @@ section.four .container .row .col-md-6 h2 {
 section.four .container .row .col-md-6 p {
   font-family: Inria Sans;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   color: rgba(241, 241, 241, 0.9450980392);
 }
 section.four .container .row .col-md-6 .btn-primary {
@@ -207,7 +207,7 @@ section.five .container .row .col-md-6 p {
   font-family: Inria Sans;
   font-weight: 400;
   color: rgba(241, 241, 241, 0.9450980392);
-  font-size: 16px;
+  font-size: 14px;
 }
 section.five .container .row .col-md-6 .btn-secondary {
   display: flex;
@@ -247,13 +247,13 @@ section.six .container .row .col-md-4 a .col-10 h5 {
   font-family: Open Sans;
   font-weight: 700;
   font-size: 24px;
-  font-size: 16px;
+  font-size: 14px;
   color: #5c6580;
 }
 section.six .container .row .col-md-4 p {
   font-family: Inria Sans;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 12px;
   color: #010101;
   font-weight: 300;
 }
@@ -285,13 +285,13 @@ section.six .container .row .btn-primary a {
   font-weight: 700;
   font-size: 10px;
   color: rgba(241, 241, 241, 0.9450980392);
-  font-size: 24px;
+  font-size: 20px;
 }
 .contact .contactText p {
   font-family: Inria Sans;
   font-weight: 400;
   color: rgba(241, 241, 241, 0.9450980392);
-  font-size: 16px;
+  font-size: 12px;
 }
 .contact .formContainer {
   background: rgba(0, 0, 0, 0.431372549);
@@ -305,13 +305,13 @@ section.six .container .row .btn-primary a {
   font-weight: 700;
   font-size: 24px;
   color: rgba(241, 241, 241, 0.9450980392);
-  font-size: 20px;
+  font-size: 18px;
 }
 .contact .contactContainer p {
   font-family: Inria Sans;
   font-weight: 400;
   color: rgba(241, 241, 241, 0.9450980392);
-  font-size: 16px;
+  font-size: 12px;
 }
 
 footer {
@@ -322,47 +322,47 @@ footer .row .col-md-4 h3 {
   font-weight: 700;
   font-size: 24px;
   color: rgba(241, 241, 241, 0.9450980392);
-  font-size: 20px;
+  font-size: 18px;
 }
 footer .row .col-md-4 p {
   font-family: Inria Sans;
   font-weight: 400;
   color: rgba(241, 241, 241, 0.9450980392);
-  font-size: 16px;
+  font-size: 12px;
 }
 footer .row .col-md-4 a {
   color: rgb(129, 192, 245);
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: none;
 }
 footer .copyright p {
   font-family: Inria Sans;
   font-weight: 400;
   color: rgba(241, 241, 241, 0.9450980392);
-  font-size: 16px;
+  font-size: 12px;
 }
 footer .copyright a {
   color: rgb(129, 192, 245);
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: none;
 }
 
 .aboutCourse p {
   font-family: Inria Sans;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   color: #010101;
 }
 .aboutCourse h3 {
   font-family: Open Sans;
   font-weight: 700;
   font-size: 24px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .aboutCourse ul li {
   font-family: Inria Sans;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   color: #010101;
 }
 .aboutCourse .btn {
@@ -390,13 +390,13 @@ footer .copyright a {
     height: auto;
   }
   section.one h2 {
-    font-size: 16px;
+    font-size: 14px;
   }
   section.one p {
-    font-size: 13px;
+    font-size: 12px;
   }
   section.one h4 {
-    font-size: 16px;
+    font-size: 14px;
   }
   section.one .col-md-6 {
     margin-left: 1.5rem;
@@ -421,7 +421,7 @@ footer .copyright a {
     font-size: 20px;
   }
   section.four .container .row .col-12 p {
-    font-size: 16px;
+    font-size: 14px;
   }
   section.four .container .row .col-md-6 {
     width: 75vw;
@@ -432,7 +432,7 @@ footer .copyright a {
     height: auto;
   }
   section.six .container .row .col-md-4 p {
-    font-size: 13px;
+    font-size: 12px;
   }
   section.six .container .row .btn {
     margin-left: 12rem;
@@ -484,13 +484,13 @@ footer .copyright a {
     padding: 0 2rem;
   }
   section.one .row .col-md-8 h2 {
-    font-size: 16px;
+    font-size: 14px;
   }
   section.one .row .col-md-8 p {
-    font-size: 13px;
+    font-size: 12px;
   }
   section.one .row .col-md-8 h4 {
-    font-size: 13px;
+    font-size: 12px;
   }
   section.two .row {
     height: 287px;
@@ -500,30 +500,30 @@ footer .copyright a {
     font-size: 20px;
   }
   section.two .row p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
   }
   section.two .row h4 {
-    font-size: 13px;
+    font-size: 12px;
   }
   section.three {
     background: #fffdfa;
     margin: 0;
   }
   section.three h2 {
-    font-size: 16px;
+    font-size: 14px;
   }
   section.three p {
-    font-size: 13px;
+    font-size: 12px;
   }
   section.four .container .row .col-12 img {
     display: none;
   }
   section.four .container .row .col-12 h2 {
-    font-size: 16px;
+    font-size: 14px;
   }
   section.four .container .row .col-12 p {
-    font-size: 13px;
+    font-size: 12px;
   }
   section.four .container .row .col-md-6 {
     width: 95vw;
@@ -537,16 +537,17 @@ footer .copyright a {
     width: 100%;
   }
   section.six .container .row .col-md-4 {
-    width: 85vw;
+    width: 90vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
   }
-  section.six .container .row .col-md-4 .col-10 h5 {
+  section.six .container .row .col-md-4 .col-10 a .row h5 {
     font-family: Open Sans;
     font-weight: 700;
     font-size: 24px;
-    font-size: 12px;
+    font-size: 10px;
   }
   section.six .container .row .col-md-4 .col-2 img {
     width: 50px;
@@ -554,6 +555,24 @@ footer .copyright a {
   }
   section.six .container .row .btn {
     margin-left: 2.25rem;
+  }
+  .aboutCourse p {
+    font-family: Inria Sans;
+    font-weight: 400;
+    font-size: 12px;
+    color: #010101;
+  }
+  .aboutCourse h3 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 24px;
+    font-size: 16px;
+  }
+  .aboutCourse ul li {
+    font-family: Inria Sans;
+    font-weight: 400;
+    font-size: 12px;
+    color: #010101;
   }
   footer {
     background: #000;
