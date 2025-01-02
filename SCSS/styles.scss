@@ -587,8 +587,8 @@ footer {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin: 0 !important;
-      padding: 0 !important;
+      margin: 1rem 0 0 0;
+      padding: 0;
 
       img {
         width: 400px;
@@ -597,7 +597,7 @@ footer {
       }
 
       .col-md-8 {
-        padding: 0 2rem;
+        padding: 0;
 
         h2 {
           font-size: $textLarge;
