@@ -485,6 +485,7 @@ footer .copyright a {
   section.one .row .col-md-8 {
     padding: 0;
     margin: 0;
+    width: 80%;
   }
   section.one .row .col-md-8 h2 {
     font-size: 14px;
