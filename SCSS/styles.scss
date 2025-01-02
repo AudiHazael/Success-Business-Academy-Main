@@ -132,27 +132,31 @@ header {
 section.one {
   background: #fffdfa;
 
-  // img {
-  //   @include images();
-  // }
-
-  h2 {
-    @include sectionHeader();
-    color: $textDark;
+  .col-md-2 {
+    margin-right: 2rem;
   }
 
-  p {
-    @include paragraph();
-    color: $textDark;
-    font-size: $textLarge;
-  }
+  .col-md-8 {
+    width: 50%;
+    h2 {
+      @include sectionHeader();
+      color: $textDark;
+    }
 
-  h4 {
-    @include nameTag();
-    color: $textDark;
+    p {
+      @include paragraph();
+      color: $textDark;
+      font-size: $textLarge;
+    }
 
-    a {
-      text-decoration: none;
+    h4 {
+      @include nameTag();
+      color: $textDark;
+
+      a {
+        text-decoration: none;
+        font-size: 12px;
+      }
     }
   }
 }
@@ -541,7 +545,7 @@ footer {
 
 @media only screen and (max-width: 767px) {
   header {
-    // background: url('../Assets/header.png') lightgray 50% / cover no-repeat;
+    background: url('../Assets/mobileHero1.png') lightgray 50% / cover no-repeat;
     height: 50%;
 
     .navbar-nav {
@@ -590,10 +594,13 @@ footer {
       margin: 1rem 0 0 0;
       padding: 0;
 
-      img {
-        width: 400px;
-        height: auto;
-        margin: 2rem 0;
+      .col-md-2 {
+        margin: 0;
+        img {
+          width: 400px;
+          height: auto;
+          margin: 2rem 0;
+        }
       }
 
       .col-md-8 {
