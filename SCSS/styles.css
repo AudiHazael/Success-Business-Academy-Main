@@ -474,6 +474,8 @@ footer .copyright a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 1rem 0 0 0;
+    padding: 0;
   }
   section.one .row img {
     width: 400px;
@@ -555,6 +557,9 @@ footer .copyright a {
   }
   section.six .container .row .btn {
     margin-left: 2.25rem;
+  }
+  .siteNav a {
+    font-size: 10px;
   }
   .aboutCourse p {
     font-family: Inria Sans;
