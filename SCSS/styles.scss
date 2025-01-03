@@ -465,11 +465,6 @@ footer {
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
           margin-bottom: 1rem;
           // height: 35rem;
-          .card-body {
-            p.card-text {
-              font-weight: 600;
-            }
-          }
         }
       }
     }
@@ -807,32 +802,31 @@ footer {
       a {
         .card {
           width: 60%;
-          // height: 42rem;
         }
       }
     }
   }
-}
 
-footer {
-  background: #000;
+  footer {
+    background: #000;
 
-  .row {
-    text-align: center;
-    h3 {
-      font-size: 12px;
+    .row {
+      text-align: center;
+      h3 {
+        font-size: 12px;
+      }
+      p {
+        font-size: 10px;
+      }
     }
-    p {
-      font-size: 10px;
-    }
-  }
 
-  .copyright {
-    p {
-      font-size: 12px;
-    }
-    a {
-      font-size: 12px;
+    .copyright {
+      p {
+        font-size: 12px;
+      }
+      a {
+        font-size: 12px;
+      }
     }
   }
 }

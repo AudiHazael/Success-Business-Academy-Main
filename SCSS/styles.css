@@ -400,9 +400,6 @@ footer .copyright a {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem;
 }
-.ceo .books .col-md-3 a .card .card-body p.card-text {
-  font-weight: 600;
-}
 
 @media only screen and (max-width: 1024px) {
   header .hero .col-8 {
@@ -629,22 +626,22 @@ footer .copyright a {
   .ceo .books a .card {
     width: 60%;
   }
-}
-footer {
-  background: #000;
-}
-footer .row {
-  text-align: center;
-}
-footer .row h3 {
-  font-size: 12px;
-}
-footer .row p {
-  font-size: 10px;
-}
-footer .copyright p {
-  font-size: 12px;
-}
-footer .copyright a {
-  font-size: 12px;
+  footer {
+    background: #000;
+  }
+  footer .row {
+    text-align: center;
+  }
+  footer .row h3 {
+    font-size: 12px;
+  }
+  footer .row p {
+    font-size: 10px;
+  }
+  footer .copyright p {
+    font-size: 12px;
+  }
+  footer .copyright a {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=styles.css.map */
