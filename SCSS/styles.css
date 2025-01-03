@@ -254,13 +254,13 @@ section.six .container .row .col-md-4 a .col-10 h5 {
   font-family: Open Sans;
   font-weight: 700;
   font-size: 24px;
-  font-size: 14px;
+  font-size: 18px;
   color: #5c6580;
 }
 section.six .container .row .col-md-4 p {
   font-family: Inria Sans;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   color: #010101;
   font-weight: 300;
 }
@@ -390,15 +390,15 @@ footer .copyright a {
   height: auto;
 }
 .ceo .row .col-md-8 {
-  width: 555;
+  width: 55%;
 }
 .ceo .books .col-md-3 a {
   text-decoration: none !important;
 }
 .ceo .books .col-md-3 a .card {
+  width: 18rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem;
-  height: 35rem;
 }
 .ceo .books .col-md-3 a .card .card-body p.card-text {
   font-weight: 600;
@@ -611,22 +611,40 @@ footer .copyright a {
     font-size: 12px;
     color: #010101;
   }
-  footer {
-    background: #000;
+  .ceo .row .col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  footer .row {
-    text-align: center;
+  .ceo .row .col-md-4 img {
+    width: 400px;
+    height: auto;
   }
-  footer .row h3 {
-    font-size: 12px;
+  .ceo .row .col-md-8 {
+    width: 90%;
   }
-  footer .row p {
-    font-size: 10px;
+  .ceo .books {
+    width: 80%;
   }
-  footer .copyright p {
-    font-size: 12px;
+  .ceo .books a .card {
+    width: 60%;
   }
-  footer .copyright a {
-    font-size: 12px;
-  }
+}
+footer {
+  background: #000;
+}
+footer .row {
+  text-align: center;
+}
+footer .row h3 {
+  font-size: 12px;
+}
+footer .row p {
+  font-size: 10px;
+}
+footer .copyright p {
+  font-size: 12px;
+}
+footer .copyright a {
+  font-size: 12px;
 }/*# sourceMappingURL=styles.css.map */

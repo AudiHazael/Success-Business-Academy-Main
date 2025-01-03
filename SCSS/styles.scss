@@ -309,7 +309,7 @@ section.six {
           .col-10 {
             h5 {
               @include sectionHeader();
-              font-size: $textLarge;
+              font-size: 18px;
               color: #5c6580;
             }
           }
@@ -317,7 +317,7 @@ section.six {
 
         p {
           @include paragraph();
-          font-size: $textSmall;
+          font-size: $textLarge;
           color: #010101;
           font-weight: 300;
         }
@@ -452,7 +452,7 @@ footer {
       }
     }
     .col-md-8 {
-      width: 555;
+      width: 55%;
     }
   }
 
@@ -461,9 +461,10 @@ footer {
       a {
         text-decoration: none !important;
         .card {
+          width: 18rem;
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
           margin-bottom: 1rem;
-          height: 35rem;
+          // height: 35rem;
           .card-body {
             p.card-text {
               font-weight: 600;
@@ -784,26 +785,54 @@ footer {
     }
   }
 
-  footer {
-    background: #000;
-
+  // aboutCEO Page
+  .ceo {
     .row {
-      text-align: center;
-      h3 {
-        font-size: 12px;
+      .col-md-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 400px;
+          height: auto;
+        }
       }
-      p {
-        font-size: 10px;
+      .col-md-8 {
+        width: 90%;
       }
     }
 
-    .copyright {
-      p {
-        font-size: 12px;
-      }
+    .books {
+      width: 80%;
       a {
-        font-size: 12px;
+        .card {
+          width: 60%;
+          // height: 42rem;
+        }
       }
+    }
+  }
+}
+
+footer {
+  background: #000;
+
+  .row {
+    text-align: center;
+    h3 {
+      font-size: 12px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+
+  .copyright {
+    p {
+      font-size: 12px;
+    }
+    a {
+      font-size: 12px;
     }
   }
 }
