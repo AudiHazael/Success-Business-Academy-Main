@@ -478,7 +478,8 @@ footer .copyright a {
     width: 100vw;
     height: auto;
     border: none;
-    padding: 0 0.15rem 2rem 0;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
