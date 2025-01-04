@@ -624,6 +624,7 @@ footer .copyright a {
     text-align: center;
   }
   .ceo .books {
+    margin: auto;
     width: 80%;
   }
   .ceo .books a .card {
