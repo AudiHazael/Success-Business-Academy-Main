@@ -590,8 +590,8 @@ footer {
         width: 100vw;
         height: auto;
         border: none;
-        padding: 0;
-        margin: 0;
+        padding: auto;
+        margin: auto;
 
         display: flex;
         flex-direction: column;
@@ -616,7 +616,7 @@ footer {
     }
   }
 
-  .aboutCEO {
+  .aboutCEOHeor {
     background: url('../Assets/mobileHero2.png') lightgray 50% / cover no-repeat;
     height: 50%;
   }
