@@ -131,6 +131,29 @@ section.two .row h4 {
   color: rgba(241, 241, 241, 0.9450980392);
 }
 
+section.aboutSBA .row .col-md-4 img {
+  width: 400px;
+}
+section.aboutSBA .cta p strong {
+  font-size: 16px;
+}
+section.aboutSBA .cta .btn-primary {
+  display: flex;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e32652;
+  border: none;
+}
+section.aboutSBA .cta .btn-primary a {
+  text-decoration: none;
+  color: #fff;
+}
+
 section.three {
   background: #fffdfa;
   margin: 0;
@@ -245,12 +268,18 @@ section.six .container .row .col-md-4 {
 }
 section.six .container .row .col-md-4 a {
   text-decoration: none;
+  width: -moz-fit-content;
+  width: fit-content;
 }
-section.six .container .row .col-md-4 a .col-2 img {
+section.six .container .row .col-md-4 a .row {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+section.six .container .row .col-md-4 a .row .col-2 img {
   width: 60px;
   height: auto;
 }
-section.six .container .row .col-md-4 a .col-10 h5 {
+section.six .container .row .col-md-4 a .row .col-10 h5 {
   font-family: Open Sans;
   font-weight: 700;
   font-size: 24px;
@@ -258,7 +287,7 @@ section.six .container .row .col-md-4 a .col-10 h5 {
   color: #d1dbf9;
   text-align: center;
 }
-section.six .container .row .col-md-4 a .col-10 p {
+section.six .container .row .col-md-4 a .row .col-10 p {
   font-family: Inria Sans;
   font-weight: 400;
   font-size: 16px;

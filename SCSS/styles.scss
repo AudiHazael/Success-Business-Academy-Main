@@ -189,6 +189,42 @@ section.two {
   }
 }
 
+section.aboutSBA {
+  .row {
+    .col-md-4 {
+      img {
+        width: 400px;
+      }
+      .col-md-6 {
+        h3 {
+        }
+        p {
+        }
+        ul {
+          li {
+          }
+        }
+      }
+    }
+  }
+
+  .cta {
+    p {
+      strong {
+        font-size: 16px;
+      }
+    }
+
+    .btn-primary {
+      @include primaryButton();
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+}
+
 section.three {
   background: #fffdfa;
   margin: 0;
@@ -300,25 +336,30 @@ section.six {
         margin: 10px;
         a {
           text-decoration: none;
-          .col-2 {
-            img {
-              width: 60px;
-              height: auto;
+          width: fit-content;
+
+          .row {
+            width: fit-content;
+            .col-2 {
+              img {
+                width: 60px;
+                height: auto;
+              }
             }
-          }
-          .col-10 {
-            h5 {
-              @include sectionHeader();
-              font-size: 20px;
-              color: #d1dbf9;
-              text-align: center;
-            }
-            p {
-              @include paragraph();
-              font-size: 16px;
-              color: #f5e7e7;
-              font-weight: 300;
-              text-align: center;
+            .col-10 {
+              h5 {
+                @include sectionHeader();
+                font-size: 20px;
+                color: #d1dbf9;
+                text-align: center;
+              }
+              p {
+                @include paragraph();
+                font-size: 16px;
+                color: #f5e7e7;
+                font-weight: 300;
+                text-align: center;
+              }
             }
           }
         }
