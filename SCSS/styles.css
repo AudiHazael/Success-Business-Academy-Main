@@ -131,29 +131,6 @@ section.two .row h4 {
   color: rgba(241, 241, 241, 0.9450980392);
 }
 
-section.aboutSBA .row .col-md-4 img {
-  width: 400px;
-}
-section.aboutSBA .cta p strong {
-  font-size: 16px;
-}
-section.aboutSBA .cta .btn-primary {
-  display: flex;
-  padding: 0.5rem 2rem;
-  justify-content: center;
-  align-items: center;
-  font-family: Open Sans;
-  font-weight: 700;
-  font-size: 16px;
-  color: #ffffff;
-  background: #e32652;
-  border: none;
-}
-section.aboutSBA .cta .btn-primary a {
-  text-decoration: none;
-  color: #fff;
-}
-
 section.three {
   background: #fffdfa;
   margin: 0;

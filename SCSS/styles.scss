@@ -189,45 +189,10 @@ section.two {
   }
 }
 
-section.aboutSBA {
-  .row {
-    .col-md-4 {
-      img {
-        width: 400px;
-      }
-      .col-md-6 {
-        h3 {
-        }
-        p {
-        }
-        ul {
-          li {
-          }
-        }
-      }
-    }
-  }
-
-  .cta {
-    p {
-      strong {
-        font-size: 16px;
-      }
-    }
-
-    .btn-primary {
-      @include primaryButton();
-      a {
-        text-decoration: none;
-        color: #fff;
-      }
-    }
-  }
-}
-
 section.three {
   background: #fffdfa;
   margin: 0;
+
   h2 {
     @include sectionHeader();
     color: $textDark;
