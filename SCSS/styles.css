@@ -239,7 +239,8 @@ section.six .container .title {
   width: 55%;
 }
 section.six .container .row .col-md-4 {
-  border: 1px solid rgba(227, 154, 171, 0.2039215686);
+  width: -moz-fit-content;
+  width: fit-content;
   height: 150px;
   margin: 10px;
 }
@@ -255,6 +256,9 @@ section.six .container .row .col-md-4 a .row {
 section.six .container .row .col-md-4 a .row .col-2 img {
   width: 60px;
   height: auto;
+}
+section.six .container .row .col-md-4 a .row .col-10 {
+  width: auto;
 }
 section.six .container .row .col-md-4 a .row .col-10 h5 {
   font-family: Open Sans;

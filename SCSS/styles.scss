@@ -296,7 +296,7 @@ section.six {
     }
     .row {
       .col-md-4 {
-        border: 1px solid #e39aab34;
+        width: fit-content;
         height: 150px;
         margin: 10px;
         a {
@@ -312,6 +312,7 @@ section.six {
               }
             }
             .col-10 {
+              width: auto;
               h5 {
                 @include sectionHeader();
                 font-size: 20px;
